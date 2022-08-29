@@ -5,7 +5,7 @@ const navigate =useNavigate();
 
     return(
         <div>
-            <p>Landing Page page baru</p>
+            <p>Landing Page page baru</p><br>Hello World</br>
             <button className="border-2" onClick = {() => navigate('/myprofile')}>Go to my profile</button>
         </div>
     )
